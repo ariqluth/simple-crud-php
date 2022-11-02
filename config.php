@@ -1,6 +1,7 @@
 <?php
+
 $databaseHost = 'localhost';
-$databaseName = 'database'; // NAMA DATABASE
+$databaseName = 'simple'; // NAMA DATABASE
 $databaseUsername = 'root'; // USERNAME DATABASE
 $databasePassword = ''; //PASSWORD DATABASE
 

@@ -1,9 +1,10 @@
 <?php
 // INCLUDE KONEKSI KE DATABASE
-include_once("config.php");
+include ("config.php");
 
 // AMBIL DATA DARI DATABASE BERDASARKAN DATA TERAKHIR DI INPUT
 $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
+
 ?>
 
 <html>
@@ -15,6 +16,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
 <body>
 	<center>
 		<a href="add.html">Tambah Data Baru</a><br /><br />
+		<a href="print.php">Test Print data </a><br /><br />
 
 		<table width='80%' border=0>
 

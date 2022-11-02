@@ -1,5 +1,6 @@
 {
     "require": {
-        "php": ">=5.3.2"
+        "php": ">=5.3.2",
+        "google/cloud-storage": "^1.28"
     }
 }
